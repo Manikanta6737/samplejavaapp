@@ -12,7 +12,7 @@ pipeline {
 
   agent {
     kubernetes {
-      label 'maven'
+      label 'maven 3 3 3'
       defaultContainer 'jnlp'
       yaml """
 apiVersion: v1
